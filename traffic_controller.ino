@@ -82,9 +82,7 @@ void loop()
       break;
     delay(RED_DELAY);
   }
-  //if(!detected)
-    //while(digitalRead(SENSOR_B_1) == HIGH &&
-       //digitalRead(SENSOR_B_2) == HIGH);
+
   set_yellow_a();
   delay(YELLOW_DELAY);
   set_green_b();
@@ -103,9 +101,7 @@ void loop()
       break;
     delay(RED_DELAY);
   }
-  //if(!detected)
-    //while(digitalRead(SENSOR_A_1) == HIGH &&
-       //digitalRead(SENSOR_A_2) == HIGH);
+
   set_yellow_b();
   delay(YELLOW_DELAY);
 }
